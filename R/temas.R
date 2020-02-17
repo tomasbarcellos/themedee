@@ -16,8 +16,7 @@
 #'   geom_point(aes(color = Species))
 #' g + theme_esquema()
 #' g + theme_esquema()
-theme_esquema <- function(base_size = 11,
-                          base_family = "",
+theme_esquema <- function(base_size = 11, base_family = "",
                           base_line_size = base_size / 170,
                           base_rect_size = base_size / 170) {
   ggplot2::theme_bw(base_size = base_size,
@@ -25,6 +24,7 @@ theme_esquema <- function(base_size = 11,
            base_line_size = base_line_size,
            base_rect_size = base_rect_size) %+replace%
     ggplot2::theme(
+      plot.caption = ggplot2::element_text(size=12, hjust=0, vjust = 3),
       axis.ticks = ggplot2::element_blank(),
       axis.text = ggplot2::element_blank(),
       axis.title = ggplot2::element_blank(),
@@ -34,8 +34,7 @@ theme_esquema <- function(base_size = 11,
 
 #' @export
 #' @rdname temas
-theme_esquema <- function(base_size = 11,
-                          base_family = "",
+theme_exemplo <- function(base_size = 11, base_family = "",
                           base_line_size = base_size / 170,
                           base_rect_size = base_size / 170) {
   ggplot2::theme_minimal(base_size = base_size,
