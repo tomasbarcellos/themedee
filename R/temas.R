@@ -7,6 +7,7 @@
 #'
 #' @return Um objeto ggplot
 #' @importFrom ggplot2 %+replace%
+#' @name temas
 #' @rdname temas
 #' @export
 #'
@@ -15,7 +16,7 @@
 #' g <- ggplot(data=iris, aes(x = Sepal.Length, y = Sepal.Width)) +
 #'   geom_point(aes(color = Species))
 #' g + theme_esquema()
-#' g + theme_esquema()
+#' g + theme_exemplo()
 theme_esquema <- function(base_size = 11, base_family = "",
                           base_line_size = base_size / 170,
                           base_rect_size = base_size / 170) {
@@ -32,8 +33,8 @@ theme_esquema <- function(base_size = 11, base_family = "",
     )
 }
 
-#' @export
 #' @rdname temas
+#' @export
 theme_exemplo <- function(base_size = 11, base_family = "",
                           base_line_size = base_size / 170,
                           base_rect_size = base_size / 170) {
