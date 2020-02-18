@@ -201,6 +201,4 @@ p +
 
 # Proposta
 
-A proposta deve incluir uma opção para queles que não 
-fazer o gráfico no R.
-
+![app](app.png)

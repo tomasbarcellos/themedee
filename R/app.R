@@ -51,7 +51,7 @@ app_tema <- function(options = list()) {
 
       dados <- readxl::read_excel(input$arquivo$datapath)
       gg <- ggplot2::ggplot(dados,
-                            ggplotaes_string(input$x, input$y, col = input$col,
+                            ggplot2::aes_string(input$x, input$y, col = input$col,
                                      fill = input$col))
 
       if (input$tipo == "Linhas") {
