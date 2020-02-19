@@ -101,8 +101,10 @@ Outra organizações já passaram pelo mesmo problema e
 decidiram resolvê-lo com adoção de padrões e princpícios 
 para seus gráficos.
 
-* BBC
+São exemplos:
+
 * The Economist
+* BBC
 
 ---
 
@@ -172,13 +174,17 @@ p +
 
 # Proposta
 
-Pacote do DEE
+1. Criar um pacote do DEE que permita:
+  + Incluir temas e padrões do DEE com poucos comandos;
+  + Utilizar as cores padrões do CADE com poucos comandos;
 
-Incluir tema e padrões do DEE com um ou dois comandos
+2. Criar uma aplicação para criar gráficos padronizados **sem uso do R**.
+
+
 
 ---
 
-# Proposta
+# Proposta - pacote
 
 .pull-left[
 
@@ -199,6 +205,6 @@ p +
 
 ---
 
-# Proposta
+# Proposta - aplicação
 
 ![app](app.png)
